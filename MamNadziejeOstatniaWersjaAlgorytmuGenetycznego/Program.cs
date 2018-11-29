@@ -76,7 +76,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                             }
                             
                         }
-                        /*
+                        
                         Console.WriteLine();
                         Console.WriteLine("---------*--------*--------*--------*---------*--------*--------*--------*---------");
                         Console.WriteLine("Populacja po przeprowadzeniu sukcesji elitarnej:");
@@ -86,7 +86,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                         for (int j = 0; j < Elita.populacja.listaOsobnikow.Count; j++)
                         {
                             Console.WriteLine(Elita.populacja.listaOsobnikow[j]);
-                        }*/
+                        }
                     }
                     break;
                 case 2:
@@ -127,7 +127,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                             }
                             
                         }
-                        /*
+                        
                         Console.WriteLine();
                         Console.WriteLine("---------*--------*--------*--------*---------*--------*--------*--------*---------");
                         Console.WriteLine("Populacja po przeprowadzeniu sukcesji losowej:");
@@ -137,7 +137,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                         for (int j = 0; j < Losowa.populacja.listaOsobnikow.Count; j++)
                         {
                             Console.WriteLine(Losowa.populacja.listaOsobnikow[j]);
-                        }*/
+                        }
                     }
                     break;
                 case 3:
@@ -176,7 +176,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                             }
                             
                         }
-                        /*
+                        
                         Console.WriteLine();
                         Console.WriteLine("---------*--------*--------*--------*---------*--------*--------*--------*---------");
                         Console.WriteLine("Populacja po przeprowadzeniu sukcesji z usuwaniem podobnych osobnikow:");
@@ -186,7 +186,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                         for (int j = 0; j < Niepodobni.populacja.listaOsobnikow.Count; j++)
                         {
                             Console.WriteLine(Niepodobni.populacja.listaOsobnikow[j]);
-                        }*/
+                        }
                     }
                     break;
                 case 4:
@@ -231,7 +231,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                             }
                             
                         }
-                        /*
+                        
                         Console.WriteLine();
                         Console.WriteLine("---------*--------*--------*--------*---------*--------*--------*--------*---------");
                         Console.WriteLine("Populacja po przeprowadzeniu sukcesji z czesciowa wymiana:");
@@ -241,7 +241,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                         for (int i = 0; i < Czesc.populacja.listaOsobnikow.Count; i++)
                         {
                             Console.WriteLine(Czesc.populacja.listaOsobnikow[i]);
-                        }*/
+                        }
                     }
                     break;
                 case 5:
@@ -267,7 +267,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                             }
                             
                         }
-                        /*
+                        
                         Console.WriteLine();
                         Console.WriteLine("---------*--------*--------*--------*---------*--------*--------*--------*---------");
                         Console.WriteLine("Populacja po przeprowadzeniu sukcesji z całkowitym zastępowaniem:");
@@ -277,7 +277,7 @@ namespace MamNadziejeOstatniaWersjaAlgorytmuGenetycznego
                         for (int i = 0; i < Calosc.populacja.listaOsobnikow.Count; i++)
                         {
                             Console.WriteLine(Calosc.populacja.listaOsobnikow[i]);
-                        }*/
+                        }
                     }
                     break;
                 default:
